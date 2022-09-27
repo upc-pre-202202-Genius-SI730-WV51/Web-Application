@@ -1,6 +1,6 @@
 # Genius
 
-FreePlace proyect web application
+FreePlace project web application
 
 ## Recommended IDE Setup
 
