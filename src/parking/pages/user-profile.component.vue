@@ -4,6 +4,8 @@
       <div class="col m4">
         <label>Name</label>
         <input type="text" v-model="name">
+        <label>Surname</label>
+        <input type="text" v-model="name">
       </div>
     </div>
   </div>
