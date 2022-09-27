@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col m12 card-panel">
       <div class="col m4">
-        <h1>ParkPage</h1>
+        <h1>ParkPage t</h1>
       </div>
     </div>
   </div>
