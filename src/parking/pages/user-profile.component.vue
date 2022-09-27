@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col m12 card-panel">
       <div class="col m4">
-        <label>Nombre</label>
+        <label>Name</label>
         <input type="text" v-model="name">
       </div>
     </div>
@@ -10,8 +10,6 @@
 </template>
 
 <script>
-import {FilterMatchMode} from "primevue/api";
-import {TutorialsApiService} from "@/parking/services/tutorials-api.service";
 export default {
 }
 </script>

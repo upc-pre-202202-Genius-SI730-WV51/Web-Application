@@ -13,12 +13,12 @@ const router = createRouter({
     {
       path: '/profile',
       name: 'profile',
-      component: () => import("../parking/pages/park-list.component.vue")
+      component: () => import("../parking/pages/user-profile.component.vue")
     },
     {
-      path: '/parkings',
-      name: 'parkings',
-      component: () => import("../parking/pages/user-profile.component.vue")
+      path: '/parking',
+      name: 'parking',
+      component: () => import("../parking/pages/park-list.component.vue")
 
     }
   ]
