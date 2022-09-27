@@ -1,6 +1,7 @@
 <template>
   <div class="row">
     <div class="col m12 card-panel">
+      <input-text>Write your name</input-text>
       <div class="col m4">
         <label>Name</label>
         <input type="text" v-model="name">
