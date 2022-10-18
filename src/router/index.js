@@ -13,18 +13,21 @@ const router = createRouter({
     {
       path: '/profile',
       name: 'profile',
-      component: () => import("../parking/pages/user-profile.component.vue")
+      component: () => import("../parking/pages/user-login.component.vue")
     },
     {
       path: '/parking',
       name: 'parking',
       component: () => import("../parking/pages/park-list.component.vue")
 
+    },
+    {
+    path:'/UserProfile',
+    name: 'login',
+    component:()=>import("../parking/pages/user-profile-home.component.vue")
     }
   ]
 })
 
 export default router
 
-
-//user-profile.component
