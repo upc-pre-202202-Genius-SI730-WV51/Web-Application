@@ -66,6 +66,10 @@
       "location": "Av.Carretera Central km 13",
       "hoursOfAttention": "9:00-24:00",
       "image": "https://www.ccimasenalizaciones.pe/images/joomlart/articulos_blog/estacionamientos_para_personas_con_discapacidad.jpg"
+      "Location": "Av.Carretera Central km 13",
+      "HoursOfAttention": "9:00-24:00",
+      "CostHours": 5
+
     }
   ],
   "parkingStatus": [
