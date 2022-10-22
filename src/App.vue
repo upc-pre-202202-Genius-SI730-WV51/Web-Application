@@ -37,7 +37,7 @@ export default {
       items: [
         { label: 'Home', to: '/home'},
         { label: 'Profile', to: '/profile'},
-        { label: 'Parking', to: '/parking'}
+        { label: 'Parking', to: '/parkingList'}
       ]
     }
   }
