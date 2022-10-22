@@ -1,4 +1,41 @@
 {
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Frank",
+      "birthDate": "20/12/1980",
+      "creditCard": "MasterCard",
+      "numberCreditCard": "1234567891234536"
+    },
+    {
+      "id": 2,
+      "name": "jaret",
+      "birthDate": "20/12/1982",
+      "creditCard": "Visa",
+      "numberCreditCard": "123452789123456"
+    },
+    {
+      "id": 3,
+      "name": "Luis",
+      "birthDate": "20/12/1988",
+      "creditCard": "Visa",
+      "numberCreditCard": "123456789123456"
+    },
+    {
+      "id": 4,
+      "name": "Jose",
+      "birthDate": "20/12/1989",
+      "creditCard": "Visa",
+      "numberCreditCard": "123456788123456"
+    },
+    {
+      "id": 5,
+      "name": "Tom",
+      "birthDate": "20/12/1985",
+      "creditCard": "MasterCard",
+      "numberCreditCard": "123456789443456"
+    }
+  ],
   "parking": [
     {
       "id": 1,
@@ -29,6 +66,53 @@
       "location": "Av.Carretera Central km 13",
       "hoursOfAttention": "9:00-24:00",
       "image": "https://www.ccimasenalizaciones.pe/images/joomlart/articulos_blog/estacionamientos_para_personas_con_discapacidad.jpg"
+    }
+  ],
+  "parkingStatus": [
+    {
+      "id": 1,
+      "parking_id": 2,
+      "Driver_id": 1,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "14:00",
+      "NumberHours": 4
+    },
+    {
+      "id": 2,
+      "parking_id": 3,
+      "Driver_id": 1,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "15:00",
+      "NumberHours": 5
+    },
+    {
+      "id": 3,
+      "parking_id": 4,
+      "Driver_id": 2,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "16:00",
+      "NumberHours": 2
+    },
+    {
+      "id": 4,
+      "parking_id": 2,
+      "Driver_id": 4,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "15:00",
+      "NumberHours": 5
+    },
+    {
+      "id": 5,
+      "parking_id": 2,
+      "Driver_id": 3,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "14:00",
+      "NumberHours": 4
     }
   ]
 }
