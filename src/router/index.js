@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: '/profile',
       name: 'profile',
-      component: () => import("../parking/pages/user-profile.component.vue")
+      component: () => import("../parking/pages/user-login.component.vue")
     },
     {
       path: '/parkingList',
@@ -29,5 +29,3 @@ const router = createRouter({
 
 export default router
 
-
-//user-profile.component
