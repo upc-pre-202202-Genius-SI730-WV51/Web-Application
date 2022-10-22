@@ -1,4 +1,5 @@
 
+
 <template>
   <pv-toast/>
   <header>
@@ -28,6 +29,7 @@
   <pv-sidebar v-model:visible="drawer"/>
   <router-view/>
 </template>
+
 
 <script>
 export default {

@@ -13,20 +13,29 @@
   </div>
 </template>
 
+
 <script>
 export default {
-}
-</script>
 
+}
+
+
+</script>
 <style scoped>
+
+
 .table-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+
 .confirmation-content {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 </style>

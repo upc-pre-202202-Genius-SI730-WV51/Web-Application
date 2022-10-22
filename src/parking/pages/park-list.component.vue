@@ -22,11 +22,9 @@
 
   <div class="button">
     <pv-button label="Look for other options" class="p-button-raised p-button-rounded  mr-2" @click="openNew"/>
-    <pv-button label="Parking Graph" class="p-button-raised p-button-rounded  mr-2" @click="openNew"/>
+    <pv-button label="Parking Graph" class="p-button-raised p-button-rounded mr-2" @click="openNew"/>
+
   </div>
-
-
-
 </template>
 
 <script>
@@ -49,11 +47,9 @@ export default {
   },
 
   methods: {
-
   }
 }
 </script>
-
 <style scoped>
 .wrapper{
   width: 25%;
