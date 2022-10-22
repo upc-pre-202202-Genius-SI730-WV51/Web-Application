@@ -1,0 +1,122 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Frank",
+      "birthDate": "20/12/1980",
+      "creditCard": "MasterCard",
+      "numberCreditCard": "1234567891234536"
+    },
+    {
+      "id": 2,
+      "name": "jaret",
+      "birthDate": "20/12/1982",
+      "creditCard": "Visa",
+      "numberCreditCard": "123452789123456"
+    },
+    {
+      "id": 3,
+      "name": "Luis",
+      "birthDate": "20/12/1988",
+      "creditCard": "Visa",
+      "numberCreditCard": "123456789123456"
+    },
+    {
+      "id": 4,
+      "name": "Jose",
+      "birthDate": "20/12/1989",
+      "creditCard": "Visa",
+      "numberCreditCard": "123456788123456"
+    },
+    {
+      "id": 5,
+      "name": "Tom",
+      "birthDate": "20/12/1985",
+      "creditCard": "MasterCard",
+      "numberCreditCard": "123456789443456"
+    }
+  ],
+  "parking": [
+    {
+      "id": 1,
+      "name": "Parking jockey",
+      "location": "Av.Javier Prado",
+      "hoursOfAttention": "9:00-24:00",
+      "image": "https://www.comexperu.org.pe/upload/images/actualidad-2-101117-125755.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Parking Mega plaza",
+      "location": "Av.via expresa",
+      "hoursOfAttention": "9:00-24:00",
+      "image": "https://1.bp.blogspot.com/-1kKDrsGhdW8/XumQxstmQNI/AAAAAAAAj8U/dR_u6kcaAYwdMDt5pP5_DqY2ed9LdHwWQCK4BGAsYHg/w1200-h630-p-k-no-nu/estacionamientos-vistas3d-fotorealista.jpg"
+
+    },
+    {
+      "id": 3,
+      "name": "Mall de sur",
+      "location": "Carretera central km 23",
+      "hoursOfAttention": "9:00-24:00",
+      "image": "https://revistabusiness.com.pe/files/tecnologia-boom-de-estacionamientos-800x450.jpg"
+
+    },
+    {
+      "id": 4,
+      "name": "Mall santa anita",
+      "location": "Av.Carretera Central km 13",
+      "hoursOfAttention": "9:00-24:00",
+      "image": "https://www.ccimasenalizaciones.pe/images/joomlart/articulos_blog/estacionamientos_para_personas_con_discapacidad.jpg"
+      "Location": "Av.Carretera Central km 13",
+      "HoursOfAttention": "9:00-24:00",
+      "CostHours": 5
+
+    }
+  ],
+  "parkingStatus": [
+    {
+      "id": 1,
+      "parking_id": 2,
+      "Driver_id": 1,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "14:00",
+      "NumberHours": 4
+    },
+    {
+      "id": 2,
+      "parking_id": 3,
+      "Driver_id": 1,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "15:00",
+      "NumberHours": 5
+    },
+    {
+      "id": 3,
+      "parking_id": 4,
+      "Driver_id": 2,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "16:00",
+      "NumberHours": 2
+    },
+    {
+      "id": 4,
+      "parking_id": 2,
+      "Driver_id": 4,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "15:00",
+      "NumberHours": 5
+    },
+    {
+      "id": 5,
+      "parking_id": 2,
+      "Driver_id": 3,
+      "status": "reserved",
+      "StarTime": "10:00",
+      "EndTime": "14:00",
+      "NumberHours": 4
+    }
+  ]
+}
