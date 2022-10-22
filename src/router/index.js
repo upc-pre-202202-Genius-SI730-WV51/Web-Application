@@ -11,15 +11,18 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/',
+      redirect: '/home'
+    },
+    {
       path: '/profile',
       name: 'profile',
       component: () => import("../parking/pages/user-profile.component.vue")
     },
     {
-      path: '/parking',
-      name: 'parking',
+      path: '/parkingList',
+      name: 'parkingList',
       component: () => import("../parking/pages/park-list.component.vue")
-
     }
   ]
 })
