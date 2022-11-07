@@ -3,10 +3,6 @@
     <div class="col m12 card-panel">
       <div class="col m4">
         <h1>Parking's List</h1>
-        <h1>Parking's List</h1>
-        <h1>Parking's List</h1>
-        <h1>Parking's List</h1>
-        
       </div>
     </div>
   </div>
