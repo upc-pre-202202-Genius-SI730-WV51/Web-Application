@@ -65,10 +65,18 @@
       "name": "Mall santa anita",
       "location": "Av.Carretera Central km 13",
       "hoursOfAttention": "9:00-24:00",
-      "image": "https://www.ccimasenalizaciones.pe/images/joomlart/articulos_blog/estacionamientos_para_personas_con_discapacidad.jpg"
+      "image": "https://www.ccimasenalizaciones.pe/images/joomlart/articulos_blog/estacionamientos_para_personas_con_discapacidad.jpg",
       "Location": "Av.Carretera Central km 13",
       "HoursOfAttention": "9:00-24:00",
       "CostHours": 5
+
+    },
+    {
+      "id": 5,
+      "name": "Centro Lima Parking",
+      "location": "Jirón De La Unión 1080 Lima, Perú",
+      "hoursOfAttention": "7:00-20:00",
+      "image": "https://scontent.flim9-1.fna.fbcdn.net/v/t1.18169-9/14484714_657285444452069_8108676979017458358_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=QRCcSUhdMv8AX_EYym9&_nc_ht=scontent.flim9-1.fna&oh=00_AfBFQLS00xXoxrsafiMMS8lnS19YOzgU2YOpsCuEXVKayQ&oe=638FD32C"
 
     }
   ],
