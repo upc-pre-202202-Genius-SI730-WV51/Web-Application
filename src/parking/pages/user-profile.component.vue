@@ -8,6 +8,7 @@
         <label>Surname</label>
         <label>Last Name</label>
         <label>Age</label>
+        <label>Address</label>
         <input type="text" v-model="name">
         <label>T</label>
       </div>
