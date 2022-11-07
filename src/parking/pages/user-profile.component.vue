@@ -6,6 +6,8 @@
         <label>Name</label>
         <input type="text" v-model="name">
         <label>Surname</label>
+        <label>Last Name</label>
+        <label>Age</label>
         <input type="text" v-model="name">
         <label>T</label>
       </div>
