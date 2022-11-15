@@ -1,3 +1,4 @@
+
 <template>
   <div class="card">
     <div class="col m12 card-panel">
@@ -31,7 +32,6 @@
 
 <script>
 import {ParkingApiService} from "../services/parking-api.service";
-
 export default {
   name: "park-list.component",
   data() {
@@ -47,34 +47,41 @@ export default {
       console.log(this.parkingSpaces);
     });
   },
-
   methods: {
-
   }
 }
+
 </script>
 
 <style scoped>
 .wrapper{
-  width: 25%;
+  max-height: 400px;
+  min-height: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  border: 1px solid #dddddd;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow-x: auto;
+  float:left;
+}
+.wrapper::-webkit-scrollbar{
+  width: 0px;
+}
+.wrapper .item{
+  min-width: 400px;
+  height: 350px;
+  line-height: 200px;
+  text-align: center;
+  color: black;
+  background-color: #dddddd;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 
 .button{
   margin: 15px;
-}
-
-.table-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.confirmation-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  top: 800px;
 }
 </style>
