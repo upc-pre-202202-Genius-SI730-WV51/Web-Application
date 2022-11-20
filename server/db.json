@@ -118,5 +118,23 @@
       "EndTime": "14:00",
       "NumberHours": 4
     }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "url": "https://usecim.net/wp-content/uploads/2020/05/Screen-Shot-2020-05-28-at-20.54.57-1024x492.png"
+    },
+    {
+      "id": 2,
+      "url": "https://e.rpp-noticias.io/normal/2018/09/26/131313_683641.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://construir.com.pe/wp-content/uploads/2021/10/ESTACIONAMIENTO.1.jpg"
+    },
+    {
+      "id": 4,
+      "url": "https://www.ulima.edu.pe/sites/default/files/styles/600x300/public/news/gallery/sotano_t-7153.jpg?itok=nTJwwGfL"
+    }
   ]
 }
